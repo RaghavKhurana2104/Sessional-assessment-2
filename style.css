@@ -1,5 +1,5 @@
 body{
-    background:linear-gradient(to bottom,rgb(135, 8, 8),rgb(227, 36, 36));
+    background:linear-gradient(to top,rgb(194, 50, 50),rgb(186, 34, 34));
 }
 
 .header-logo{
@@ -24,7 +24,18 @@ body{
     padding-right: 0.6em;
 }
 
-.but1:hover{
+button:hover{
     border-color: white;
+}
+
+#mor{
+    font-size: 2em;
+    border-radius: 30px;
+   width: 20%;
+   margin-bottom: 30px;
+   background-color: rgb(232, 23, 23);
+   border-width: 3px;
+   border-color: rgb(232, 23, 23);
+   color: white;
 }
 
