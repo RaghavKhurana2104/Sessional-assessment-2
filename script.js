@@ -14,8 +14,8 @@ for(i=p; i<p+50; i++){
     let imag = response[i].url;
     content1 += `
     <div style="text-align;">
-        <a href="${imag}"><img src="${id}" style="margin-right: 30px; margin-left:30px;"></agi >
-        <div style="width:150px; margin-left:50px; text-align: center;">
+        <a href="${imag}"><img src="${id}" style="margin-right: 30px; margin-left:30px;"></a>
+        <div style="width:150px; margin-left:50px; text-align: center;color:white;">
         <p style="overflow:auto">${title}</p>
         </div>
     </div>`

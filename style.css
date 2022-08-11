@@ -1,16 +1,30 @@
+body{
+    background:linear-gradient(to bottom,rgb(135, 8, 8),rgb(227, 36, 36));
+}
+
+.header-logo{
+    font-family:'Brush Script MT', cursive;
+}
 .name{
-    text-align: center;
-    font-size: 5em;
-    font-family:'Brush Script MT', cursive;}
+    font-size: 7em;
+              font-family:'Brush Script MT', cursive;
+              color:white;
+    }
 
 #nav{
     display: flex;
     justify-content: right;
-    background-color: aqua;
+    background-color: black;
     font-size: 2em;   
 }
 
 .nav{
     display: flex;
-    margin-left: 3em;
+    padding-left: 0.6em;
+    padding-right: 0.6em;
 }
+
+.but1:hover{
+    border-color: white;
+}
+
