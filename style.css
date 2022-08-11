@@ -1,0 +1,16 @@
+.name{
+    text-align: center;
+    font-size: 5em;
+    font-family:'Brush Script MT', cursive;}
+
+#nav{
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+    font-size: 2em;   
+}
+
+.nav{
+    display: flex;
+    margin-left: 3em;
+}
