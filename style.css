@@ -1,5 +1,16 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
-    background:linear-gradient(to bottom,rgb(187, 19, 19),rgb(130, 113, 113));
+    background:url("https://wallpaperforu.com/wp-content/uploads/2020/10/minimalist-wallpaper-2010231509427.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#div1{
+  text-align: center;
+    
 }
 
 .header-logo{
@@ -44,9 +55,21 @@ button:hover{
 }
 
 .down{
-    color: black;
+    color: rgb(204, 200, 200);
     margin-left: 1.5em;
     margin-right: 1.5em;
 }
+
+.down:hover{
+    color: white;
+}
+
+#footer{
+    background-color:black;
+    padding-bottom: 50px;
+    color: white;
+}
+
+
 
 
